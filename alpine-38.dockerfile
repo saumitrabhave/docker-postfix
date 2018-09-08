@@ -36,6 +36,7 @@ RUN set -x \
         --enable-digest \
         --enable-login \
         --enable-ntlm \
+        --enable-sql \
         --disable-otp \
         --enable-plain \
         --with-mysql="/usr/include/mysql/" \
